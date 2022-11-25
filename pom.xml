@@ -65,9 +65,9 @@
     </licenses>
     <scm>
         <tag>master</tag>
-        <url>https://github.com/cn-crabapples/mail-spring-boot-starter.git</url>
-        <connection>scm:git:git@github.com:cn-crabapples/mail-spring-boot-starter.git</connection>
-        <developerConnection>scm:git:git@github.com:cn-crabapples/mail-spring-boot-starter.git</developerConnection>
+        <url>https://github.com/cn-crabapples/mybatis-generator-plugins.git</url>
+        <connection>scm:git:git@github.com:cn-crabapples/mybatis-generator-plugins.git</connection>
+        <developerConnection>scm:git:git@github.com:cn-crabapples/mybatis-generator-plugins.git</developerConnection>
     </scm>
     <developers>
         <developer>

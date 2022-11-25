@@ -7,7 +7,7 @@
 > 提供基于FastJson的ToString方法`cn.crabapples.FastJsonToStringPlugin`
 > add use fastjson use fastjson override toString()
 
-> 使用方式 Use Description 
+> 使用方式 Use Description
 
 - 在mybatis逆向工程引入maven坐标
   ```xml

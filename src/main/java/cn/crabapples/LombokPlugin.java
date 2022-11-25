@@ -9,6 +9,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * @author Mr.He
+ * 2022/11/26 3:54
+ * e-mail crabapples.cn@gmail.com
+ * qq 294046317
+ * pc-name mrhe
+ */
 public class LombokPlugin extends PluginAdapter {
     private TopLevelClass topLevelClass;
 
@@ -59,7 +66,7 @@ public class LombokPlugin extends PluginAdapter {
                 } catch (ClassNotFoundException e) {
                     String exceptionMessage = MessageFormat.format(
                             "当前lombok版本中没有发现:[{0}]注解\n" +
-                            "this lombok version not found [{0}] annotation", trim);
+                                    "this lombok version not found [{0}] annotation", trim);
                     throw new RuntimeException(exceptionMessage);
                 }
                 String annotationName = MessageFormat.format("@{0}", trim);

@@ -7,6 +7,13 @@ import org.mybatis.generator.config.JavaModelGeneratorConfiguration;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Mr.He
+ * 2022/11/26 3:54
+ * e-mail crabapples.cn@gmail.com
+ * qq 294046317
+ * pc-name mrhe
+ */
 public class FastJsonToStringPlugin extends PluginAdapter {
     private TopLevelClass topLevelClass;
 

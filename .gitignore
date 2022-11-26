@@ -7,7 +7,7 @@ target
 
 # BlueJ files
 *.ctxt
-
+src/main/java/cn/crabapples/TestPlugin.java
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 

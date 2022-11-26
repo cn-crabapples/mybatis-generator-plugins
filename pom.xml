@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.crabapples</groupId>
     <artifactId>mybatis-generator-plugins</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 
     <name>mybatis-generator-plugins</name>
     <description>mybatis-generator-plugins</description>

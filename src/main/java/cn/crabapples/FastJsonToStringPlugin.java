@@ -65,7 +65,6 @@ public class FastJsonToStringPlugin extends PluginAdapter {
 
     @Override
     public boolean clientBasicInsertMethodGenerated(Method method, Interface interfaze, IntrospectedTable introspectedTable) {
-        System.err.println(1);
         return super.clientBasicInsertMethodGenerated(method, interfaze, introspectedTable);
     }
 

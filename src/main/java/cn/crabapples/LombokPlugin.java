@@ -78,7 +78,6 @@ public class LombokPlugin extends PluginAdapter {
 
     @Override
     public boolean validate(List<String> list) {
-        System.err.println(list);
         return true;
     }
 }

@@ -6,6 +6,7 @@
     <groupId>cn.crabapples</groupId>
     <artifactId>mybatis-generator-plugins</artifactId>
     <version>1.0.1</version>
+
     <name>mybatis-generator-plugins</name>
     <description>mybatis-generator-plugins</description>
     <properties>
@@ -13,6 +14,14 @@
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <url>https://github.com/cn-crabapples/mybatis-generator-plugins</url>
+    <scm>
+        <tag>main</tag>
+        <url>https://github.com/cn-crabapples/mybatis-generator-plugins</url>
+        <connection>scm:git:git@github.com:cn-crabapples/mybatis-generator-plugins.git</connection>
+        <developerConnection>scm:git:git@github.com:cn-crabapples/mybatis-generator-plugins.git</developerConnection>
+    </scm>
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -30,6 +39,19 @@
             <version>1.2.83</version>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>spring</id>
+            <url>https://maven.aliyun.com/repository/spring</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
@@ -49,6 +71,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+            <!--auto publish auto status: close -->
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
@@ -80,6 +103,9 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>2.10.2</version>
+                <configuration>
+                    <charset>UTF-8</charset>
+                </configuration>
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>
@@ -147,19 +173,6 @@
             </plugin>
         </plugins>
     </build>
-
-    <repositories>
-        <repository>
-            <id>spring</id>
-            <url>https://maven.aliyun.com/repository/spring</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -167,12 +180,6 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-    <scm>
-        <tag>master</tag>
-        <url>https://github.com/cn-crabapples/mybatis-generator-plugins.git</url>
-        <connection>scm:git:git@github.com:cn-crabapples/mybatis-generator-plugins.git</connection>
-        <developerConnection>scm:git:git@github.com:cn-crabapples/mybatis-generator-plugins.git</developerConnection>
-    </scm>
     <developers>
         <developer>
             <name>he quan</name>
